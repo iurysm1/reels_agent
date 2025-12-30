@@ -1,1 +1,3 @@
 .venv
+my_os.db
+__pycache__
