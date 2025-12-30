@@ -81,3 +81,11 @@ def get_transcriptions_tool(creator_name):
   ]
 }
 ```
+
+
+
+# Rode a docker image com:
+
+```
+docker run --env-file .env -p 8088:8088 reels-agent
+```
