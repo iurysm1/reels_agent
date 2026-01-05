@@ -77,7 +77,7 @@ try {
   Write-Host "Atualizando pip..."
   & $VenvPython -m pip install --upgrade pip
 
-  $Req = Join-Path $InstallRoot "requirements.txt"
+  $Req = Join-Path $InstallRoot "requirements_win.txt"
   if (Test-Path $Req) {
     Write-Host "Instalando dependências (requirements.txt)..."
     & $VenvPython -m pip install -r $Req
