@@ -1,4 +1,6 @@
 .venv
 .env
 my_os.db
+tmp
+videos
 __pycache__
