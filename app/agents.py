@@ -10,7 +10,7 @@ copywriter = Agent(
     name="copywriter",
 
     num_history_messages=True,
-    num_history_runs=10,
+    num_history_runs=30,
     db=AsyncSqliteDb(db_file="my_os.db"),
 
 
